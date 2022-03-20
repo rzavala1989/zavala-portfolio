@@ -16,6 +16,8 @@ import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbLO from '../public/images/works/lightsout_eyecatch.png'
 import thumbDBB from '../public/images/works/dbb_eyecatch.png'
 import thumbBlackJack from '../public/images/works/blackjack_eyecatch.png'
+import thumbTracker from '../public/images/works/a-tracker_eyecatch.png'
+import thumbSendbird from '../public/images/works/sendbird_eyecatch.png'
 
 //styles to be exported
 //styles to be exported
@@ -37,6 +39,16 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="sendbird"
+            title="Sendbird"
+            thumbnail={thumbSendbird}
+          >
+            A progressive web app for messaging, build with React, Firebase, and
+            Electron on Ant Design UI. and Framer Motion.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem
             id="palace-fits"
@@ -96,6 +108,16 @@ const Works = () => (
           <WorkGridItem id="blaqjaq" thumbnail={thumbBlackJack} title="BlaqJaq">
             Desktop React App of a Blackjack game created with React Hooks and
             reducers
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="atoue"
+            thumbnail={thumbTracker}
+            title="A Tracker of Unfortunate Events"
+          >
+            A natural disaster tracker app that allows users to display events
+            with the NASA API
           </WorkGridItem>
         </Section>
       </SimpleGrid>
