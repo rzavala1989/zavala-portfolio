@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
-import React, { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 

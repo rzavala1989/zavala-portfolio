@@ -25,15 +25,8 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
     <NextLink href={href} passHref>
       <Link
         p={2}
-        bg={
-          active
-            ? useColorModeValue(
-                'url(images/background-tabs-purple.jpg)',
-                'url(images/background-tabs.png)'
-              )
-            : undefined
-        }
-        color={active ? useColorModeValue('white', '#202023') : inactiveColor}
+        bg={active ? 'url(images/background-tabs-purple.jpg)' : null}
+        color={active ? 'white' : inactiveColor}
         _target={_target}
         {...props}
       >

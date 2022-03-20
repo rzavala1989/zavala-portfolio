@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
@@ -127,3 +128,4 @@ const VoxelDog = () => {
 }
 
 export default VoxelDog
+/* eslint-enable no-unused-vars */
