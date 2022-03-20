@@ -12,7 +12,6 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbPalace from '../public/images/works/palace-fits_eyecatch.png'
 import thumbCryptoHub from '../public/images/works/cryptohub_eyecatch.png'
 import thumbZaxximo from '../public/images/works/zaxximo-eyecatch.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbLO from '../public/images/works/lightsout_eyecatch.png'
 import thumbDBB from '../public/images/works/dbb_eyecatch.png'
 import thumbBlackJack from '../public/images/works/blackjack_eyecatch.png'
@@ -80,12 +79,6 @@ const Works = () => (
           <WorkGridItem id="dbb" title="Do Betr Business" thumbnail={thumbDBB}>
             React task management app which allows admins to create staff, set
             tasks/schedules, as well as task deletion/reassignment.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
           </WorkGridItem>
         </Section>
       </SimpleGrid>
