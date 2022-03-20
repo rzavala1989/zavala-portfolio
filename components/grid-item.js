@@ -8,9 +8,6 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 export const GridItem = ({ children, href, title, thumbnail }) => {
   const [isZoomed, setIsZoomed] = useState(false)
-  const handleImgLoad = useCallback(() => {
-    setIsZoomed(true)
-  }, [])
 
   const handleZoomChange = useCallback(shouldZoom => {
     setIsZoomed(shouldZoom)

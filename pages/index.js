@@ -32,9 +32,6 @@ const tan = '#D2B48C'
 
 const Home = () => {
   const [isZoomed, setIsZoomed] = useState(false)
-  const handleImgLoad = useCallback(() => {
-    setIsZoomed(true)
-  }, [])
 
   const handleZoomChange = useCallback(shouldZoom => {
     setIsZoomed(shouldZoom)

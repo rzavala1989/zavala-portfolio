@@ -2,7 +2,13 @@
   "root": true,
   "extends": ["eslint:recommended", "plugin:react/recommended", "next"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-no-undef": "off",
+    "react/jsx-uses-react": "off"
   },
   "globals": {
     "React": "writable"
