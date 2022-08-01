@@ -17,6 +17,7 @@ import thumbDBB from '../public/images/works/dbb_eyecatch.png'
 import thumbBlackJack from '../public/images/works/blackjack_eyecatch.png'
 import thumbTracker from '../public/images/works/a-tracker_eyecatch.png'
 import thumbSendbird from '../public/images/works/sendbird_eyecatch.png'
+import thumbCNC from '../public/images/works/cnc_eyecatch.png'
 
 //styles to be exported
 //styles to be exported
@@ -46,6 +47,12 @@ const Works = () => (
           >
             A progressive web app for messaging, build with React, Firebase, and
             Electron on Ant Design UI. and Framer Motion.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="cnc" title="Chess Not Checkrs" thumbnail={thumbCNC}>
+            A web app for playing chess with configurable AI for computer
+            difficulty, build with React, and Java Spring Boot
           </WorkGridItem>
         </Section>
         <Section>
